@@ -1,618 +1,618 @@
 [
     {
-        "kanji": "日",
+        "chucai": "日",
         "hanviet": "nhật",
         "nghia": "mặt trời, ngày",
         "doc": "nichi, jitsu"
         },
         {
-        "kanji": "一",
+        "chucai": "一",
         "hanviet": "nhất",
         "nghia": "một; đồng nhất",
         "doc": "ichi, itsu"
         },
         {
-        "kanji": "国",
+        "chucai": "国",
         "hanviet": "quốc",
         "nghia": "nước; quốc gia",
         "doc": "koku"
         },
         {
-        "kanji": "人",
+        "chucai": "人",
         "hanviet": "nhân",
         "nghia": "nhân vật",
         "doc": "jin, nin"
         },
         {
-        "kanji": "年",
+        "chucai": "年",
         "hanviet": "niên",
         "nghia": "năm; niên đại",
         "doc": "nen"
         },
         {
-        "kanji": "大",
+        "chucai": "大",
         "hanviet": "đại",
         "nghia": "to lớn; đại lục",
         "doc": "dai, tai"
         },
         {
-        "kanji": "十",
+        "chucai": "十",
         "hanviet": "thập",
         "nghia": "mười",
         "doc": "juu, jiQ"
         },
         {
-        "kanji": "二",
+        "chucai": "二",
         "hanviet": "nhị",
         "nghia": "hai",
         "doc": "ni"
         },
         {
-        "kanji": "本",
+        "chucai": "本",
         "hanviet": "bản",
         "nghia": "sách, cơ bản, bản chất",
         "doc": "hon"
         },
         {
-        "kanji": "中",
+        "chucai": "中",
         "hanviet": "trung",
         "nghia": "giữa, trung tâm",
         "doc": "chuu"
         },
         {
-        "kanji": "長",
+        "chucai": "長",
         "hanviet": "trường, trưởng",
         "nghia": "dài; trưởng",
         "doc": "choo"
         },
         {
-        "kanji": "出",
+        "chucai": "出",
         "hanviet": "xuất",
         "nghia": "ra, xuất hiện, xuất phát",
         "doc": "shutsu, sui"
         },
         {
-        "kanji": "三",
+        "chucai": "三",
         "hanviet": "tam",
         "nghia": "ba",
         "doc": "san"
         },
         {
-        "kanji": "時",
+        "chucai": "時",
         "hanviet": "thời",
         "nghia": "thời gian",
         "doc": "ji"
         },
         {
-        "kanji": "行",
+        "chucai": "行",
         "hanviet": "hành, hàng",
         "nghia": "thực hành;ngân hàng, đi",
         "doc": "koo, gyoo"
         },
         {
-        "kanji": "見",
+        "chucai": "見",
         "hanviet": "kiến",
         "nghia": "nhìn; ý kiến",
         "doc": "ken"
         },
         {
-        "kanji": "月",
+        "chucai": "月",
         "hanviet": "nguyệt",
         "nghia": "mặt trăng, tháng",
         "doc": "getsu, gatsu"
         },
         {
-        "kanji": "後",
+        "chucai": "後",
         "hanviet": "hậu",
         "nghia": "sau",
         "doc": "go, koo"
         },
         {
-        "kanji": "前",
+        "chucai": "前",
         "hanviet": "tiền",
         "nghia": "trước",
         "doc": "zen"
         },
         {
-        "kanji": "生",
+        "chucai": "生",
         "hanviet": "sinh",
         "nghia": "sống; học sinh(chỉ người)",
         "doc": "sei, shoo"
         },
         {
-        "kanji": "五",
+        "chucai": "五",
         "hanviet": "ngũ",
         "nghia": "năm (5)",
         "doc": "go"
         },
         {
-        "kanji": "間",
+        "chucai": "間",
         "hanviet": "gian",
         "nghia": "trung gian, không gian",
         "doc": "kan, ken"
         },
         {
-        "kanji": "友",
+        "chucai": "友",
         "hanviet": "hữu",
         "nghia": "bạn",
         "doc": "yuu"
         },
         {
-        "kanji": "上",
+        "chucai": "上",
         "hanviet": "thượng",
         "nghia": "trên",
         "doc": "joo, shoo"
         },
         {
-        "kanji": "東",
+        "chucai": "東",
         "hanviet": "đông",
         "nghia": "phía đông",
         "doc": "too"
         },
         {
-        "kanji": "四",
+        "chucai": "四",
         "hanviet": "tứ",
         "nghia": "bốn",
         "doc": "shi"
         },
         {
-        "kanji": "今",
+        "chucai": "今",
         "hanviet": "kim",
         "nghia": "hiện tại, lúc này",
         "doc": "kon, kin"
         },
         {
-        "kanji": "金",
+        "chucai": "金",
         "hanviet": "kim",
         "nghia": "vàng, kim loại",
         "doc": "kin, kon"
         },
         {
-        "kanji": "九",
+        "chucai": "九",
         "hanviet": "cửu",
         "nghia": "chín (9)",
         "doc": "kyuu, ku"
         },
         {
-        "kanji": "入",
+        "chucai": "入",
         "hanviet": "nhập",
         "nghia": "vào; nhập môn",
         "doc": "nyuu"
         },
         {
-        "kanji": "学",
+        "chucai": "学",
         "hanviet": "học",
         "nghia": "học",
         "doc": "gaku"
         },
         {
-        "kanji": "高",
+        "chucai": "高",
         "hanviet": "cao",
         "nghia": "cao",
         "doc": "koo"
         },
         {
-        "kanji": "円",
+        "chucai": "円",
         "hanviet": "viên",
         "nghia": "tròn; tiền Yên",
         "doc": "en"
         },
         {
-        "kanji": "子",
+        "chucai": "子",
         "hanviet": "tử",
         "nghia": "con, phần tử",
         "doc": "shi, su"
         },
         {
-        "kanji": "外",
+        "chucai": "外",
         "hanviet": "ngoại",
         "nghia": "bên ngoài",
         "doc": "gai, ge"
         },
         {
-        "kanji": "八",
+        "chucai": "八",
         "hanviet": "bát",
         "nghia": "tám",
         "doc": "hachi"
         },
         {
-        "kanji": "六",
+        "chucai": "六",
         "hanviet": "lục",
         "nghia": "sáu",
         "doc": "roku"
         },
         {
-        "kanji": "下",
+        "chucai": "下",
         "hanviet": "hạ",
         "nghia": "dưới",
         "doc": "ka, ge"
         },
         {
-        "kanji": "来",
+        "chucai": "来",
         "hanviet": "lai",
         "nghia": "đến; tương lai, vị lai",
         "doc": "rai"
         },
         {
-        "kanji": "左",
+        "chucai": "左",
         "hanviet": "tả",
         "nghia": "trái, bên trái",
         "doc": "sa"
         },
         {
-        "kanji": "気",
+        "chucai": "気",
         "hanviet": "khí",
         "nghia": "không khí, khí chất",
         "doc": "ki, ke"
         },
         {
-        "kanji": "小",
+        "chucai": "小",
         "hanviet": "tiểu",
         "nghia": "nhỏ, ít",
         "doc": "shoo"
         },
         {
-        "kanji": "七",
+        "chucai": "七",
         "hanviet": "thất",
         "nghia": "bảy (7)",
         "doc": "shichi"
         },
         {
-        "kanji": "山",
+        "chucai": "山",
         "hanviet": "sơn",
         "nghia": "núi, sơn hà",
         "doc": "san"
         },
         {
-        "kanji": "話",
+        "chucai": "話",
         "hanviet": "thoại",
         "nghia": "nói chuyện, đối thoại",
         "doc": "wa"
         },
         {
-        "kanji": "女",
+        "chucai": "女",
         "hanviet": "nữ",
         "nghia": "phụ nữ",
         "doc": "jo, nyo"
         },
         {
-        "kanji": "北",
+        "chucai": "北",
         "hanviet": "bắc",
         "nghia": "phía bắc",
         "doc": "hoku"
         },
         {
-        "kanji": "午",
+        "chucai": "午",
         "hanviet": "ngọ",
         "nghia": "buổi trưa, ngọ",
         "doc": "go"
         },
         {
-        "kanji": "百",
+        "chucai": "百",
         "hanviet": "bách",
         "nghia": "trăm",
         "doc": "hyaku"
         },
         {
-        "kanji": "書",
+        "chucai": "書",
         "hanviet": "thư",
         "nghia": "viết; thư đạo",
         "doc": "sho"
         },
         {
-        "kanji": "先",
+        "chucai": "先",
         "hanviet": "tiên",
         "nghia": "trước",
         "doc": "sen"
         },
         {
-        "kanji": "名",
+        "chucai": "名",
         "hanviet": "danh",
         "nghia": "tên",
         "doc": "mei, myoo"
         },
         {
-        "kanji": "川",
+        "chucai": "川",
         "hanviet": "xuyên",
         "nghia": "sông",
         "doc": "sen"
         },
         {
-        "kanji": "千",
+        "chucai": "千",
         "hanviet": "thiên",
         "nghia": "nghìn",
         "doc": "sen"
         },
         {
-        "kanji": "休",
+        "chucai": "休",
         "hanviet": "hưu",
         "nghia": "nghỉ ngơi, về hưu",
         "doc": "kyuu"
         },
         {
-        "kanji": "父",
+        "chucai": "父",
         "hanviet": "phụ",
         "nghia": "cha",
         "doc": "fu"
         },
         {
-        "kanji": "水",
+        "chucai": "水",
         "hanviet": "thủy",
         "nghia": "nước",
         "doc": "sui"
         },
         {
-        "kanji": "半",
+        "chucai": "半",
         "hanviet": "bán",
         "nghia": "một nửa",
         "doc": "han"
         },
         {
-        "kanji": "男",
+        "chucai": "男",
         "hanviet": "nam",
         "nghia": "nam giới",
         "doc": "dan, nan"
         },
         {
-        "kanji": "西",
+        "chucai": "西",
         "hanviet": "tây",
         "nghia": "phía tây",
         "doc": "sei, sai"
         },
         {
-        "kanji": "電",
+        "chucai": "電",
         "hanviet": "điện",
         "nghia": "điện, điện lực",
         "doc": "den"
         },
         {
-        "kanji": "校",
+        "chucai": "校",
         "hanviet": "hiệu",
         "nghia": "trường học",
         "doc": "koo"
         },
         {
-        "kanji": "語",
+        "chucai": "語",
         "hanviet": "ngữ",
         "nghia": "ngôn ngữ, từ ngữ",
         "doc": "go"
         },
         {
-        "kanji": "土",
+        "chucai": "土",
         "hanviet": "thổ",
         "nghia": "đất; thổ địa",
         "doc": "do, to"
         },
         {
-        "kanji": "木",
+        "chucai": "木",
         "hanviet": "mộc",
         "nghia": "cây, gỗ",
         "doc": "boku, moku"
         },
         {
-        "kanji": "聞",
+        "chucai": "聞",
         "hanviet": "văn",
         "nghia": "nghe, tân văn (báo)",
         "doc": "bun, mon"
         },
         {
-        "kanji": "食",
+        "chucai": "食",
         "hanviet": "thực",
         "nghia": "ăn",
         "doc": "shoku"
         },
         {
-        "kanji": "車",
+        "chucai": "車",
         "hanviet": "xa",
         "nghia": "xe",
         "doc": "sha"
         },
         {
-        "kanji": "何",
+        "chucai": "何",
         "hanviet": "hà",
         "nghia": "cái gì, hà cớ = lẽ gì",
         "doc": "ka"
         },
         {
-        "kanji": "南",
+        "chucai": "南",
         "hanviet": "nam",
         "nghia": "phía nam",
         "doc": "nan"
         },
         {
-        "kanji": "万",
+        "chucai": "万",
         "hanviet": "vạn",
         "nghia": "vạn, nhiều; vạn vật",
         "doc": "man, ban"
         },
         {
-        "kanji": "毎",
+        "chucai": "毎",
         "hanviet": "mỗi",
         "nghia": "mỗi (vd: mỗi người)",
         "doc": "mai"
         },
         {
-        "kanji": "白",
+        "chucai": "白",
         "hanviet": "bạch",
         "nghia": "trắng, sạch",
         "doc": "haku, byaku"
         },
         {
-        "kanji": "天",
+        "chucai": "天",
         "hanviet": "thiên",
         "nghia": "trời, thiên đường",
         "doc": "ten"
         },
         {
-        "kanji": "母",
+        "chucai": "母",
         "hanviet": "mẫu",
         "nghia": "mẹ",
         "doc": "bo"
         },
         {
-        "kanji": "火",
+        "chucai": "火",
         "hanviet": "hỏa",
         "nghia": "lửa",
         "doc": "ka"
         },
         {
-        "kanji": "右",
+        "chucai": "右",
         "hanviet": "hữu",
         "nghia": "phải, bên phải",
         "doc": "u, yuu"
         },
         {
-        "kanji": "読",
+        "chucai": "読",
         "hanviet": "độc",
         "nghia": "đọc",
         "doc": "doku"
         },
         {
-        "kanji": "雨",
+        "chucai": "雨",
         "hanviet": "vũ",
         "nghia": "mưa",
         "doc": "u"
         },
         {
-        "kanji": "安",
+        "chucai": "安",
         "hanviet": "an",
         "nghia": "yên, bình an",
         "doc": "an"
         },
         {
-        "kanji": "飲",
+        "chucai": "飲",
         "hanviet": "ẩm",
         "nghia": "uống",
         "doc": "in"
         },
         {
-        "kanji": "駅",
+        "chucai": "駅",
         "hanviet": "ga",
         "nghia": "ga, ga tàu",
         "doc": "eki"
         },
         {
-        "kanji": "花",
+        "chucai": "花",
         "hanviet": "hoa",
         "nghia": "hoa",
         "doc": "ka"
         },
         {
-        "kanji": "会",
+        "chucai": "会",
         "hanviet": "hội",
         "nghia": "hội, hội nhóm, hội đồng",
         "doc": "kai"
         },
         {
-        "kanji": "魚",
+        "chucai": "魚",
         "hanviet": "ngư",
         "nghia": "con cá",
         "doc": "gyo"
         },
         {
-        "kanji": "空",
+        "chucai": "空",
         "hanviet": "không",
         "nghia": "rỗng không, hư không, trời",
         "doc": "kuu"
         },
         {
-        "kanji": "言",
+        "chucai": "言",
         "hanviet": "ngôn",
         "nghia": "ngôn (tự mình nói ra)",
         "doc": "gen, gon"
         },
         {
-        "kanji": "古",
+        "chucai": "古",
         "hanviet": "cổ",
         "nghia": "ngày xưa…",
         "doc": "ko"
         },
         {
-        "kanji": "口",
+        "chucai": "口",
         "hanviet": "khẩu",
         "nghia": "cái miệng, con đường ra vào",
         "doc": "kou, ku"
         },
         {
-        "kanji": "耳",
+        "chucai": "耳",
         "hanviet": "nhĩ",
         "nghia": "tai, nghe",
         "doc": "ji"
         },
         {
-        "kanji": "社",
+        "chucai": "社",
         "hanviet": "xã",
         "nghia": "đền thờ thổ địa, xã tắc, xã hội",
         "doc": "sha"
         },
         {
-        "kanji": "手",
+        "chucai": "手",
         "hanviet": "thủ",
         "nghia": "tay, làm, tự tay làm",
         "doc": "shu"
         },
         {
-        "kanji": "週",
+        "chucai": "週",
         "hanviet": "chu",
         "nghia": "vòng khắp, một tuần lễ",
         "doc": " shuu"
         },
         {
-        "kanji": "少",
+        "chucai": "少",
         "hanviet": "thiếu",
         "nghia": "ít, một chút, trẻ",
         "doc": "shou"
         },
         {
-        "kanji": "新",
+        "chucai": "新",
         "hanviet": "tân",
         "nghia": "mới, trong sạch",
         "doc": "shin"
         },
         {
-        "kanji": "足",
+        "chucai": "足",
         "hanviet": "túc",
         "nghia": "cái chân, bước, đủ",
         "doc": "soku"
         },
         {
-        "kanji": "多",
+        "chucai": "多",
         "hanviet": "đa",
         "nghia": "nhiều, khen tốt, hơn",
         "doc": "ta"
         },
         {
-        "kanji": "店",
+        "chucai": "店",
         "hanviet": "điếm",
         "nghia": "tiệm, nhà trọ",
         "doc": "ten"
         },
         {
-        "kanji": "道",
+        "chucai": "道",
         "hanviet": "đạo",
         "nghia": "đường cái thẳng, đạo lý, đạo tràng…",
         "doc": "dou"
         },
         {
-        "kanji": "立",
+        "chucai": "立",
         "hanviet": "lập",
         "nghia": "đứng thẳng, gây dựng",
         "doc": "ritsu"
         },
         {
-        "kanji": "買",
+        "chucai": "買",
         "hanviet": "mãi",
         "nghia": "mua",
         "doc": "bai"
         },
         {
-        "kanji": "分",
+        "chucai": "分",
         "hanviet": "phân",
         "nghia": "chia, tách rẽ..",
         "doc": "bun, fun, bu"
         },
         {
-        "kanji": "目",
+        "chucai": "目",
         "hanviet": "mục",
         "nghia": "con mắt, nhìn kỹ…",
         "doc": "moku"
