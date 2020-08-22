@@ -75,7 +75,7 @@ export default class App extends PureComponent {
     // eslint-disable-next-line
     doc_array.filter(doc => {
       var docB = doc
-      if ((docB != "" && doc.toLowerCase()===(this.state.result.toLowerCase()))
+      if ((docB !== "" && doc.toLowerCase()===(this.state.result.toLowerCase()))
         || hanvietA.toLowerCase().trim() === this.state.result.toLowerCase().trim()) {
         this.setState(state => ({
           hanviet: hanvietA, nghia: nghiaA, doc: docA, resultBl: "dung"
@@ -140,9 +140,12 @@ export default class App extends PureComponent {
           <h5 class="my-0 mr-md-auto font-weight-normal">Learn Japanese Vocabulary</h5>
           <nav class="my-2 my-md-0 mr-md-3">
             {/* <a class="p-2 text-dark cateSelect" id="cateHome" href="#">Home</a> */}
-            <a class={(this.state.ngonNguColor==="1" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateKanji" onClick={this.selectNnClick}>Kanji</a>
-            <a class={(this.state.ngonNguColor==="2" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateHiragana" onClick={this.selectNnClick}>Hiragana</a>
-            <a class={(this.state.ngonNguColor==="3" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateKatakana" onClick={this.selectNnClick}>Katakana</a>
+             {/* // eslint-disable-next-line */}
+            <a href="#" class={(this.state.ngonNguColor==="1" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateKanji" onClick={this.selectNnClick}>Kanji</a>
+            {/* // eslint-disable-next-line */}
+            <a href="#" class={(this.state.ngonNguColor==="2" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateHiragana" onClick={this.selectNnClick}>Hiragana</a>
+            {/* // eslint-disable-next-line */}
+            <a href="#" class={(this.state.ngonNguColor==="3" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateKatakana" onClick={this.selectNnClick}>Katakana</a>
             {/* <a class={(this.state.ngonNguColor==="4" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateRomaiji" onClick={this.selectNnClick}>Romaiji</a> */}
           </nav>
         </div>
