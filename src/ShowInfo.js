@@ -9,14 +9,6 @@ export default class ShowInfo extends React.Component {
         resultBl: PropTypes.string
     };
     render() {
-        // var hanviet;
-        // var nghia;
-        // var doc;
-        // this.props.vocaData.map(vocaData => (
-        //     hanviet = vocaData.hanviet,
-        //     nghia = vocaData.nghia,
-        //     doc = vocaData.doc
-        // ))
         return (
         <div class="card-body">
             {

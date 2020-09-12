@@ -171,7 +171,7 @@ export default class App extends PureComponent {
                 <button type="button" class="btn btn-lg btn-block btn-warning btnBt" onClick={this.handleClick}>Bó tay</button>
                 <button type="button" class="btn btn-lg btn-block btn-info btnBt" onClick={this.reloadClick}>Từ khác</button>
               </div>
-            </div>
+            </div> 
             <div class="card mb-4 shadow-sm">
               <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Information</h4>
