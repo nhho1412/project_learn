@@ -1,3 +1,6 @@
+#root {
+  font-family: 'Muli',sans-serif;
+}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -36,21 +39,6 @@ html {
 .vocaText {
   font-size: 700%;
 }
-
-/* .btnKtkq{
-  width: 80%;
-  margin: auto;
-}
-
-.btnBt {
-  width: 80%;
-  margin: auto;
-}
-
-.inputKq {
-  width: 80%;
-  margin: auto;
-} */
 
 .caption-japanese {
   padding: 10px !important;

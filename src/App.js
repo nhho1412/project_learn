@@ -1,16 +1,17 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 import './assets/pricing.css';
+import BtnSelectAlphabet from "./components/BtnSelectAlphabet";
 import randomVoca from "./randomVoca";
 import ShowInfo from "./ShowInfo";
 
-export default class App extends PureComponent {
+export default class App extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
       vocaRandom: randomVoca("Kanji"),
       hanviet: null,
-      nghia: "Nhấn nút Bó Tay hoặc trả lời đúng đáp án",
+      nghia: "Press the button 'Result' or answer correctly",
       doc: null,
       result: "",
       resultBl: "hienthi",
@@ -52,7 +53,7 @@ export default class App extends PureComponent {
       vocaRandom: randomVoca(ngonNgu),
       hanviet: null,
       doc: null,
-      nghia: "Nhấn nút Bó Tay hoặc trả lời đúng đáp án",
+      nghia: "Press the button 'Result' or answer correctly",
       result: "",
       resultBl: "hienthi"
     }));
@@ -62,7 +63,7 @@ export default class App extends PureComponent {
     var hanvietA;
     var nghiaA;
     var docA;
-    // eslint-disable-next-line
+
     this.state.vocaRandom.map(vocaRandom => (
       // eslint-disable-next-line
         (hanvietA = vocaRandom.hanviet),
@@ -114,16 +115,13 @@ export default class App extends PureComponent {
         vocaRandom: randomVoca(ngonNgu)
       }));
     }
-    //  else if(selectNgonngu==="cateRomaiji"){
-    //   ngonNgu = "Romaiji";
-    //   ngonNguColor = "4"
-    // }
+
     this.setState(state => ({
       ngonNgu: ngonNgu, 
       ngonNguColor: ngonNguColor,
       hanviet: null,
       doc: null,
-      nghia: "Nhấn nút Bó Tay hoặc trả lời đúng đáp án",
+      nghia: "Press the button 'Result' or answer correctly",
       result: "",
       resultBl: "hienthi"
     }));
@@ -136,56 +134,51 @@ export default class App extends PureComponent {
     ))
     return (
       <div>
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-          <h5 class="my-0 mr-md-auto font-weight-normal">Learn Japanese Vocabulary</h5>
-          <nav class="my-2 my-md-0 mr-md-3">
-            {/* <a class="p-2 text-dark cateSelect" id="cateHome" href="#">Home</a> */}
-             {/* // eslint-disable-next-line */}
-            <a href="#" class={(this.state.ngonNguColor==="1" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateKanji" onClick={this.selectNnClick}>Kanji</a>
-            {/* // eslint-disable-next-line */}
-            <a href="#" class={(this.state.ngonNguColor==="2" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateHiragana" onClick={this.selectNnClick}>Hiragana</a>
-            {/* // eslint-disable-next-line */}
-            <a href="#" class={(this.state.ngonNguColor==="3" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateKatakana" onClick={this.selectNnClick}>Katakana</a>
-            {/* <a class={(this.state.ngonNguColor==="4" ? "p-2 text-dark cateSelect" : "p-2 text-dark")} id="cateRomaiji" onClick={this.selectNnClick}>Romaiji</a> */}
+        <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+          <h5 className="my-0 mr-md-auto font-weight-normal">Learn Japanese</h5>
+          <nav className="my-2 my-md-0 mr-md-3">
+            <BtnSelectAlphabet ngonNguColor={this.state.ngonNguColor} keyNn="1" nnChange={this.selectNnClick}/>
+            <BtnSelectAlphabet ngonNguColor={this.state.ngonNguColor} keyNn="2" nnChange={this.selectNnClick}/>
+            <BtnSelectAlphabet ngonNguColor={this.state.ngonNguColor} keyNn="3" nnChange={this.selectNnClick}/>
           </nav>
         </div>
-        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center caption-japanese">
-          <h1 class="display-4">JAPANESE</h1>
+        <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center caption-japanese">
+          <h1 className="display-4">JAPANESE</h1>
           <h3>{this.state.ngonNgu}</h3>
-          <p class="lead"></p>
+          <p className="lead"></p>
         </div>
 
-        <div class="container">
-          <div class="card-deck mb-3 text-center">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Vocabulary</h4>
+        <div className="container">
+          <div className="card-deck mb-3 text-center">
+            <div className="card mb-4 shadow-sm">
+              <div className="card-header">
+                <h4 className="my-0 font-weight-normal">Alphabet</h4>
               </div>
-              <div class="card-body">
-              <h1 class="card-title pricing-card-title vocaText">{Chucai}</h1>
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control inputKq" placeholder="..." aria-label="Username"
+              <div className="card-body">
+              <h1 className="card-title pricing-card-title vocaText">{Chucai}</h1>
+                <div className="input-group mb-3">
+                  <input type="text" className="form-control inputKq" placeholder="..." aria-label="Username"
                     aria-describedby="basic-addon1" value={this.state.result} onChange={this.handleChange}/>
                 </div>
-                <button type="button" class="btn btn-lg btn-block btn-primary btnKtkq" onClick={this.ktkqClick}>Kiểm tra kết quả</button>
-                <button type="button" class="btn btn-lg btn-block btn-warning btnBt" onClick={this.handleClick}>Bó tay</button>
-                <button type="button" class="btn btn-lg btn-block btn-info btnBt" onClick={this.reloadClick}>Từ khác</button>
+                <button type="button" className="btn btn-lg btn-block btn-primary btnKtkq" onClick={this.ktkqClick}>Check</button>
+                <button type="button" className="btn btn-lg btn-block btn-warning btnBt" onClick={this.handleClick}>Result</button>
+                <button type="button" className="btn btn-lg btn-block btn-info btnBt" onClick={this.reloadClick}>Next</button>
               </div>
             </div> 
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Information</h4>
+            <div className="card mb-4 shadow-sm">
+              <div className="card-header">
+                <h4 className="my-0 font-weight-normal">Information</h4>
               </div>
-              <div class="card-body">
+              <div className="card-body">
                 <ShowInfo hanviet={this.state.hanviet} nghia={this.state.nghia} doc={this.state.doc} resultBl={this.state.resultBl}/>
               </div>
             </div>
           </div>
-          <footer class="pt-4 my-md-5 pt-md-5 border-top">
-            <div class="row">
-              <div class="col-12 col-md">
-                <img class="mb-2" src="../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"/>
-                <small class="d-block mb-3 text-muted">&copy; copyright 2020</small>
+          <footer className="pt-4 my-md-5 pt-md-5 border-top">
+            <div className="row">
+              <div className="col-12 col-md">
+                <img className="mb-2" src="../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"/>
+                <small className="d-block mb-3 text-muted">&copy; copyright 2020</small>
               </div>
             </div>
           </footer>

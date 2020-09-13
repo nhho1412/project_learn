@@ -10,14 +10,14 @@ export default class ShowInfo extends React.Component {
     };
     render() {
         return (
-        <div class="card-body">
+        <div className="card-body">
             {
-                (this.props.resultBl==="hienthi") ? "" : ((this.props.resultBl==="dung") ? <div class="alert alert-success" role="alert">CORRECT!</div> : <div class="alert alert-warning" role="alert">INCORRECT!</div>)
+                (this.props.resultBl==="hienthi") ? "" : ((this.props.resultBl==="dung") ? <div className="alert alert-success" role="alert">CORRECT!</div> : <div className="alert alert-warning" role="alert">INCORRECT!</div>)
             }
-          <h1 class="card-title pricing-card-title">
+          <h1 className="card-title pricing-card-title">
             {this.props.hanviet}
           </h1>
-          <ul class="list-unstyled mt-3 mb-4">
+          <ul className="list-unstyled mt-3 mb-4">
             <li>{this.props.nghia}</li>
             <br/>
             <li>{this.props.doc}</li>
