@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import './assets/pricing.css';
-import BtnSelectAlphabet from "./components/BtnSelectAlphabet";
+import "./assets/pricing.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import randomVoca from "./randomVoca";
 import ShowInfo from "./ShowInfo";
 
 export default class App extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -16,7 +16,7 @@ export default class App extends Component {
       result: "",
       resultBl: "hienthi",
       ngonNgu: "Kanji",
-      ngonNguColor: "1"
+      ngonNguColor: "1",
     };
     this.handleClick = this.handleClick.bind(this);
     this.reloadClick = this.reloadClick.bind(this);
@@ -29,33 +29,38 @@ export default class App extends Component {
     var hanvietA;
     var nghiaA;
     var docA;
-    this.state.vocaRandom.map(vocaRandom => (
-      // eslint-disable-next-line
+    this.state.vocaRandom.map(
+      (vocaRandom) => (
+        // eslint-disable-next-line
         (hanvietA = vocaRandom.hanviet),
         (nghiaA = vocaRandom.nghia),
         (docA = vocaRandom.doc)
-    ))
-    this.setState(state => ({
-      hanviet: hanvietA, nghia: nghiaA, doc: docA, resultBl:"hienthi"
+      )
+    );
+    this.setState((state) => ({
+      hanviet: hanvietA,
+      nghia: nghiaA,
+      doc: docA,
+      resultBl: "hienthi",
     }));
-  };
+  }
 
   handleChange(event) {
     var resultA = event.target.value;
-    this.setState(state => ({
-      result: resultA
+    this.setState((state) => ({
+      result: resultA,
     }));
   }
 
   reloadClick() {
-    var ngonNgu = this.state.ngonNgu
-    this.setState(state => ({
+    var ngonNgu = this.state.ngonNgu;
+    this.setState((state) => ({
       vocaRandom: randomVoca(ngonNgu),
       hanviet: null,
       doc: null,
       nghia: "Press the button 'Result' or answer correctly",
       result: "",
-      resultBl: "hienthi"
+      resultBl: "hienthi",
     }));
   }
 
@@ -64,84 +69,89 @@ export default class App extends Component {
     var nghiaA;
     var docA;
 
-    this.state.vocaRandom.map(vocaRandom => (
-      // eslint-disable-next-line
+    this.state.vocaRandom.map(
+      (vocaRandom) => (
+        // eslint-disable-next-line
         (hanvietA = vocaRandom.hanviet),
         (nghiaA = vocaRandom.nghia),
         (docA = vocaRandom.doc)
-    ))
+      )
+    );
     // eslint-disable-next-line
-    const doc_array = docA.split(', ');
-    var ck=true;
+    const doc_array = docA.split(", ");
+    var ck = true;
     // eslint-disable-next-line
-    doc_array.filter(doc => {
-      var docB = doc
-      if ((docB !== "" && doc.toLowerCase()===(this.state.result.toLowerCase()))
-        || hanvietA.toLowerCase().trim() === this.state.result.toLowerCase().trim()) {
-        this.setState(state => ({
-          hanviet: hanvietA, nghia: nghiaA, doc: docA, resultBl: "dung"
+    doc_array.filter((doc) => {
+      var docB = doc;
+      if (
+        (docB !== "" &&
+          doc.toLowerCase() === this.state.result.toLowerCase()) ||
+        hanvietA.toLowerCase().trim() === this.state.result.toLowerCase().trim()
+      ) {
+        this.setState((state) => ({
+          hanviet: hanvietA,
+          nghia: nghiaA,
+          doc: docA,
+          resultBl: "dung",
         }));
-        ck=false;
+        ck = false;
       }
-    })
+    });
 
     if (ck) {
-      this.setState(state => ({
-        hanviet: "", nghia: "", doc: "", resultBl: "sai"
+      this.setState((state) => ({
+        hanviet: "",
+        nghia: "",
+        doc: "",
+        resultBl: "sai",
       }));
     }
-  };
+  }
 
   selectNnClick(event) {
     var selectNgonngu = event.target.id;
     var ngonNgu = "";
-    var ngonNguColor = "1"
-    if (selectNgonngu==="cateKanji") {
+    var ngonNguColor = "1";
+    if (selectNgonngu === "cateKanji") {
       ngonNgu = "Kanji";
       ngonNguColor = "1";
-      this.setState(state => ({
-        vocaRandom: randomVoca(ngonNgu)
+      this.setState((state) => ({
+        vocaRandom: randomVoca(ngonNgu),
       }));
-    } else if(selectNgonngu==="cateHiragana"){
+    } else if (selectNgonngu === "cateHiragana") {
       ngonNgu = "Hiragana";
       ngonNguColor = "2";
-      this.setState(state => ({
-        vocaRandom: randomVoca(ngonNgu)
+      this.setState((state) => ({
+        vocaRandom: randomVoca(ngonNgu),
       }));
-    } else if(selectNgonngu==="cateKatakana"){
+    } else if (selectNgonngu === "cateKatakana") {
       ngonNgu = "Katakana";
       ngonNguColor = "3";
-      this.setState(state => ({
-        vocaRandom: randomVoca(ngonNgu)
+      this.setState((state) => ({
+        vocaRandom: randomVoca(ngonNgu),
       }));
     }
 
-    this.setState(state => ({
-      ngonNgu: ngonNgu, 
+    this.setState((state) => ({
+      ngonNgu: ngonNgu,
       ngonNguColor: ngonNguColor,
       hanviet: null,
       doc: null,
       nghia: "Press the button 'Result' or answer correctly",
       result: "",
-      resultBl: "hienthi"
+      resultBl: "hienthi",
     }));
   }
 
   render() {
     var Chucai;
-    this.state.vocaRandom.map(vocaRandom => (
-      Chucai = vocaRandom.chucai
-    ))
+    this.state.vocaRandom.map((vocaRandom) => (Chucai = vocaRandom.chucai));
     return (
       <div>
-        <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-          <h5 className="my-0 mr-md-auto font-weight-normal">Learn Japanese</h5>
-          <nav className="my-2 my-md-0 mr-md-3">
-            <BtnSelectAlphabet ngonNguColor={this.state.ngonNguColor} keyNn="1" nnChange={this.selectNnClick}/>
-            <BtnSelectAlphabet ngonNguColor={this.state.ngonNguColor} keyNn="2" nnChange={this.selectNnClick}/>
-            <BtnSelectAlphabet ngonNguColor={this.state.ngonNguColor} keyNn="3" nnChange={this.selectNnClick}/>
-          </nav>
-        </div>
+        <Header
+          ngonNguColor={this.state.ngonNguColor}
+          nnChange={this.selectNnClick}
+        />
         <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center caption-japanese">
           <h1 className="display-4">JAPANESE</h1>
           <h3>{this.state.ngonNgu}</h3>
@@ -155,33 +165,58 @@ export default class App extends Component {
                 <h4 className="my-0 font-weight-normal">Alphabet</h4>
               </div>
               <div className="card-body">
-              <h1 className="card-title pricing-card-title vocaText">{Chucai}</h1>
+                <h1 className="card-title pricing-card-title vocaText">
+                  {Chucai}
+                </h1>
                 <div className="input-group mb-3">
-                  <input type="text" className="form-control inputKq" placeholder="..." aria-label="Username"
-                    aria-describedby="basic-addon1" value={this.state.result} onChange={this.handleChange}/>
+                  <input
+                    type="text"
+                    className="form-control inputKq"
+                    placeholder="..."
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                    value={this.state.result}
+                    onChange={this.handleChange}
+                  />
                 </div>
-                <button type="button" className="btn btn-lg btn-block btn-primary btnKtkq" onClick={this.ktkqClick}>Check</button>
-                <button type="button" className="btn btn-lg btn-block btn-warning btnBt" onClick={this.handleClick}>Result</button>
-                <button type="button" className="btn btn-lg btn-block btn-info btnBt" onClick={this.reloadClick}>Next</button>
+                <button
+                  type="button"
+                  className="btn btn-lg btn-block btn-primary btnKtkq"
+                  onClick={this.ktkqClick}
+                >
+                  Check
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-lg btn-block btn-warning btnBt"
+                  onClick={this.handleClick}
+                >
+                  Result
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-lg btn-block btn-info btnBt"
+                  onClick={this.reloadClick}
+                >
+                  Next
+                </button>
               </div>
-            </div> 
+            </div>
             <div className="card mb-4 shadow-sm">
               <div className="card-header">
                 <h4 className="my-0 font-weight-normal">Information</h4>
               </div>
               <div className="card-body">
-                <ShowInfo hanviet={this.state.hanviet} nghia={this.state.nghia} doc={this.state.doc} resultBl={this.state.resultBl}/>
+                <ShowInfo
+                  hanviet={this.state.hanviet}
+                  nghia={this.state.nghia}
+                  doc={this.state.doc}
+                  resultBl={this.state.resultBl}
+                />
               </div>
             </div>
           </div>
-          <footer className="pt-4 my-md-5 pt-md-5 border-top">
-            <div className="row">
-              <div className="col-12 col-md">
-                <img className="mb-2" src="../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"/>
-                <small className="d-block mb-3 text-muted">&copy; copyright 2020</small>
-              </div>
-            </div>
-          </footer>
+          <Footer />
         </div>
       </div>
     );
